@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build:css": "postcss style.css --dir dest -w"
+    "build:css": "postcss style.css --dir dest",
+    "watch:css": "postcss style.css --dir dest -w"
   },
   "keywords": [],
   "author": "",
